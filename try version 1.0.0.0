@@ -1,0 +1,15 @@
+while True:
+  username = input("Enter your username:")
+  if username.endswith ("@gmail.com"):
+    break
+  else:
+    print ("Your username must @gmail.com")
+while True:
+  password = input("Enter your password (atleast 8 characters):")
+  if len (password) < 9:
+    break
+  else:
+    print ("Your password must 8 characters")
+    
+print ("Welcome Gar")
+  
